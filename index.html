@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Humane Society Puppy Bowl</title>
+     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+    <div id="app"></div>
+    <div id="dataDisplay">
+    </div>
+     <header>
+      <h1>Puppy Bowl Roster</h1>
+    </header>
+    <main>
+      <div id="puppy-list-container"></div>
+      <div id="puppy-form-container">
+        <h2>Add a New Puppy</h2>
+        <form id="puppy-form">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="breed">Breed:</label>
+          <input type="text" id="breed" name="breed" required />
+
+          <label for="status">Status</label>
+          <select name="status" id="status">
+            <option value="bench">Bench</option>
+            <option value="field">Field</option>
+          </select>
+
+          <label for="img">Image URL</label>
+          <input type="text" name="img" id="img" />
+
+          <button type="submit">Add Puppy</button>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>
+  </body>
+</html>
